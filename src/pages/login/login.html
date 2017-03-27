@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <h1>Bienvenido a la web de jonathan aguirre</h1>
+<p>
+<input type="text" [(ngModel)] = "user.usuario" > Ingrese Usuario
+</p>
+<p>
+<input type="password" [(ngModel)] = "user.clave" > Ingrese Clave
+</p>
+<input type="submit" (click) ="Login()" value="Login">
+</ion-content>
